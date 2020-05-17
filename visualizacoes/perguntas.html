@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/funnel.js"></script>
+    <script src="https://code.highcharts.com/modules/sankey.js"></script>
     <script src="https://code.highcharts.com/modules/item-series.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
@@ -12,11 +14,18 @@
   </head>
   <body>
     <h1>Dimensão Inscrito</h1>
+    <div id="multi_bar_etnia"></div>
     <div id="parlament_etnia"></div>
     <h1>Dimensão Familiar</h1>
+    <div id="pyramid_renda" style="width: 1000px; margin: auto;"></div>
     <div id="piramide_renda"></div>
     <h1>Dimensão Interesses</h1>
     <h1>Dimensão Emprego</h1>
+    <div id="sankey_performance"></div>
+    <ul>
+      <li>Quantos alunos trabalham e estudam?</li>
+      <li>Dedicação parcial e aprovação? (apenas 10% das pessoas uqe trabalhavam passaram, vs. 30% das pessoas que não trabalhavam)</li>
+    </ul>
     <h1>Dimensão Escola</h1>
     <h1>Dimensão Desempenho</h1>
     <h1>Dimensão Alcance</h1>
@@ -100,7 +109,7 @@
       });
     </script>
     <script>
-
+      /** Parlament Chart**/
       let createParlamentChart = function ({
         canvas_id,
         title,
@@ -155,7 +164,146 @@
           ["Pardo(a)", 52, "#C77A58", "PARDO(A)"],
         ],
       };
-      createParlamentChart(chartGeral)
+      createParlamentChart(chartGeral);
+    </script>
+    <script>
+      Highcharts.chart("multi_bar_etnia", {
+        chart: {
+          type: "column",
+        },
+        title: {
+          text: "Faixa etária por etnia",
+        },
+        subtitle: {
+          text: "Quantidade de alunos por etnia e faixa etária",
+        },
+        xAxis: {
+          categories: [
+            "18 a 20",
+            "21 a 29",
+            "30 a 39",
+            "40 a 49",
+            "Acima de 50 anos",
+          ],
+          crosshair: true,
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: "Quantidade de alunos",
+          },
+        },
+        tooltip: {
+          headerFormat:
+            '<span style="font-size:10px">{point.key}</span><table>',
+          pointFormat:
+            '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y} Alunos</b></td></tr>',
+          footerFormat: "</table>",
+          shared: true,
+          useHTML: true,
+        },
+        plotOptions: {
+          column: {
+            pointPadding: 0.2,
+            borderWidth: 0,
+          },
+        },
+        series: [
+          { data: [3, 4, 2, 0, 0], name: "Amarelo(a)" },
+          { data: [6, 11, 2, 0, 0], name: "Branco(a)" },
+          { data: [0, 4, 1, 0, 0], name: "Indígena" },
+          { data: [5, 40, 4, 2, 1], name: "Pardo(a)" },
+          { data: [1, 13, 2, 2, 0], name: "Preto(a)" },
+        ],
+      });
+    </script>
+    <script>
+      Highcharts.chart("pyramid_renda", {
+        chart: {
+          type: "pyramid",
+        },
+        title: {
+          text: "Distribuição de alunos por Renda Familiar",
+          x: -50,
+        },
+        plotOptions: {
+          series: {
+            dataLabels: {
+              enabled: true,
+              format: "<b>{point.name}</b> ({point.y:,.0f})",
+              softConnector: true,
+            },
+            center: ["40%", "50%"],
+            width: "80%",
+          },
+        },
+        legend: {
+          enabled: false,
+        },
+        series: [
+          {
+            name: "Unique users",
+            data: [
+              ["Até 1 salário mínimo (até R$ 998,00)", 49],
+              ["De 1 a 2 salários mínimos (de R$998,00 até R$ 1.996,00 )", 37],
+              [
+                "De 2 a 3 salários mínimos (de R$1.996,00 até R$ 2.994,00 )",
+                17,
+              ],
+            ],
+          },
+        ],
+
+        responsive: {
+          rules: [
+            {
+              condition: {
+                maxWidth: 500,
+              },
+              chartOptions: {
+                plotOptions: {
+                  series: {
+                    dataLabels: {
+                      inside: true,
+                    },
+                    center: ["50%", "50%"],
+                    width: "100%",
+                  },
+                },
+              },
+            },
+          ],
+        },
+      });
+    </script>
+    <script>
+      Highcharts.chart('sankey_performance', {
+
+        title: {
+          text: 'Diagrama de Sankey, Ocupação vs. Aprovação'
+        },
+        subtitle: {
+          text: 'Como desempenham os alunos que trabalham em comparação com os que apenas estudam?'
+        },
+        accessibility: {
+          point: {
+            valueDescriptionFormat: '{index}. {point.from} to {point.to}, {point.weight}.'
+          }
+        },
+        series: [{
+          keys: ['from', 'to', 'weight'],
+          data: [
+          ['Trabalha', 'Aprovado(a)', 3],
+          ['Trabalha', 'Reprovado(a)', 26],
+          ['Não Trabalha', 'Aprovado(a)', 26],
+          ['Não Trabalha', 'Reprovado(a)', 48],
+      ],
+          type: 'sankey',
+          name: 'Sankey demo series'
+        }]
+
+      });
 
     </script>
   </body>
