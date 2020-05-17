@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+  <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+  var categories = [
+        "18 a 20",
+        "21 a 29",
+        "30 a 39",
+        "40 a 49",
+        "Acima de 50 anos",
+      ];
+
+      Highcharts.chart("negative_stack", {
+        chart: {
+          type: "bar",
+        },
+        title: {
+          text: "Distribuição de alunos por idade e sexo",
+        },
+        xAxis: [
+          {
+            categories: categories,
+            reversed: false,
+            labels: {
+              step: 1,
+            },
+          },
+          {
+            // mirror axis on right side
+            opposite: true,
+            reversed: false,
+            categories: categories,
+            linkedTo: 0,
+            labels: {
+              step: 1,
+            },
+            accessibility: {
+              description: "Age (female)",
+            },
+          },
+        ],
+        yAxis: {
+          title: {
+            text: null,
+          },
+          labels: {
+            formatter: function () {
+              return Math.abs(this.value);
+            },
+          },
+        },
+
+        plotOptions: {
+          series: {
+            stacking: "normal",
+          },
+        },
+
+        tooltip: {
+          formatter: function () {
+
+            return `
+              <b>Faixa etária: ${this.point.category}</b>
+              <br/>
+              Quantidades de alunos (${this.series.name}): ${Math.abs(this.point.y)}
+            `
+          },
+        },
+
+        series: [
+          {
+            name: "Homens",
+            data: [-5, -30, -7, -1, -1]
+          },
+          {
+            name: "Mulheres",
+            data: [10, 42, 4, 3, 0],
+          },
+        ],
+      });
+    </script>
+
+</body>
+</html>
