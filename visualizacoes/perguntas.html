@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://code.highcharts.com/maps/highmaps.js"></script>
-    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
-    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
-    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
-    <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
-  <title>Document</title>
-</head>
-<body>
-  <h1>Dimensão Inscrito</h1>
-  <h1>Dimensão Familiar</h1>
-  <div id="negative_stack"></div>
-  <h1>Dimensão Interesses</h1>
-  <h1>Dimensão Emprego</h1>
-  <h1>Dimensão Escola</h1>
-  <h1>Dimensão Desempenho</h1>
-  <h1>Dimensão Alcance</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/item-series.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Dimensão Inscrito</h1>
+    <div id="parlament_etnia"></div>
+    <h1>Dimensão Familiar</h1>
+    <div id="piramide_renda"></div>
+    <h1>Dimensão Interesses</h1>
+    <h1>Dimensão Emprego</h1>
+    <h1>Dimensão Escola</h1>
+    <h1>Dimensão Desempenho</h1>
+    <h1>Dimensão Alcance</h1>
 
-  <h2>Renda média</h2>
+    <h2>Renda média</h2>
 
+    <h2></h2>
 
-  <h2></h2>
+    <script>
+      var categories = [
+        "Até 1 salário mínimo (até R$ 998,00)",
+        "De 1 a 2 salários mínimos (de R$998,00 até R$ 1.996,00 )",
+        "De 2 a 3 salários mínimos (de R$1.996,00 até R$ 2.994,00 )",
+      ];
 
-
-  <script>
-    var categories = ['Até 1 salário mínimo (até R$ 998,00)', 'De 1 a 2 salários mínimos (de R$998,00 até R$ 1.996,00 )', 'De 2 a 3 salários mínimos (de R$1.996,00 até R$ 2.994,00 )'];
-
-      Highcharts.chart("negative_stack", {
+      Highcharts.chart("piramide_renda", {
         chart: {
           type: "bar",
         },
@@ -74,19 +77,20 @@
 
         tooltip: {
           formatter: function () {
-
             return `
               <b>Renda Familiar Mensal: ${this.point.category}</b>
               <br/>
-              Quantidades de alunos (${this.series.name}): ${Math.abs(this.point.y)}
-            `
+              Quantidades de alunos (${this.series.name}): ${Math.abs(
+              this.point.y
+            )}
+            `;
           },
         },
 
         series: [
           {
             name: "Reprovados",
-            data: [-32, -28, -14]
+            data: [-32, -28, -14],
           },
           {
             name: "Aprovados",
@@ -95,11 +99,64 @@
         ],
       });
     </script>
+    <script>
 
+      let createParlamentChart = function ({
+        canvas_id,
+        title,
+        subtitle,
+        data,
+      }) {
+        return Highcharts.chart(canvas_id, {
+          chart: {
+            type: "item",
+          },
+          title: {
+            text: title,
+          },
 
-  </script>
+          subtitle: {
+            text: subtitle,
+          },
 
+          legend: {
+            labelFormat: '{name} <span style="opacity: 0.4">{y}</span>',
+          },
 
+          series: [
+            {
+              name: "Estudantes",
+              keys: ["name", "y", "color", "label"],
+              data: data,
+              dataLabels: {
+                enabled: true,
+                format: "{point.label}",
+              },
 
-</body>
+              // Circular options
+              center: ["50%", "88%"],
+              size: "170%",
+              startAngle: -100,
+              endAngle: 100,
+            },
+          ],
+        });
+      };
+      let chartGeral = {
+        canvas_id: "parlament_etnia",
+        title: "Distribuição das Etnias",
+        subtitle:
+          "Tamanho dos grupos categorizados Autodeclaração Étnico-Racial.",
+        data: [
+          ["Indígena", 5, "#964B00", "INDÍGENA"],
+          ["Amarelo(a)", 9, "#FFBB00", "AMARELO(A)"],
+          ["Preto(a)", 18, "#330000", "PRETO(A)"],
+          ["Branco(a)", 19, "#EABD9D", "BRANCO(A)"],
+          ["Pardo(a)", 52, "#C77A58", "PARDO(A)"],
+        ],
+      };
+      createParlamentChart(chartGeral)
+
+    </script>
+  </body>
 </html>
