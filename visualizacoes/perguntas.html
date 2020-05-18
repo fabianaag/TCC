@@ -24,7 +24,10 @@
     <div id="sankey_performance"></div>
     <ul>
       <li>Quantos alunos trabalham e estudam?</li>
-      <li>Dedicação parcial e aprovação? (apenas 10% das pessoas uqe trabalhavam passaram, vs. 30% das pessoas que não trabalhavam)</li>
+      <li>
+        Dedicação parcial e aprovação? (apenas 10% das pessoas uqe trabalhavam
+        passaram, vs. 30% das pessoas que não trabalhavam)
+      </li>
     </ul>
     <h1>Dimensão Escola</h1>
     <h1>Dimensão Desempenho</h1>
@@ -278,33 +281,34 @@
       });
     </script>
     <script>
-      Highcharts.chart('sankey_performance', {
-
+      Highcharts.chart("sankey_performance", {
         title: {
-          text: 'Diagrama de Sankey, Ocupação vs. Aprovação'
+          text: "Diagrama de Sankey, Ocupação vs. Aprovação",
         },
         subtitle: {
-          text: 'Como desempenham os alunos que trabalham em comparação com os que apenas estudam?'
+          text:
+            "Como desempenham os alunos que trabalham em comparação com os que apenas estudam?",
         },
         accessibility: {
           point: {
-            valueDescriptionFormat: '{index}. {point.from} to {point.to}, {point.weight}.'
-          }
+            valueDescriptionFormat:
+              "{index}. {point.from} to {point.to}, {point.weight}.",
+          },
         },
-        series: [{
-          keys: ['from', 'to', 'weight'],
-          data: [
-          ['Trabalha', 'Aprovado(a)', 3],
-          ['Trabalha', 'Reprovado(a)', 26],
-          ['Não Trabalha', 'Aprovado(a)', 26],
-          ['Não Trabalha', 'Reprovado(a)', 48],
-      ],
-          type: 'sankey',
-          name: 'Sankey demo series'
-        }]
-
+        series: [
+          {
+            keys: ["from", "to", "weight"],
+            data: [
+              ["Trabalha", "Reprovado(a)", 26],
+              ["Trabalha", "Aprovado(a)", 3],
+              ["Não Trabalha", "Reprovado(a)", 48],
+              ["Não Trabalha", "Aprovado(a)", 26],
+            ],
+            type: "sankey",
+            name: "Sankey demo series",
+          },
+        ],
       });
-
     </script>
   </body>
 </html>
