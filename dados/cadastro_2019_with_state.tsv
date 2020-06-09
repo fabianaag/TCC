@@ -1,22 +1,22 @@
 gender	marital_st	neighborhood	city	language_opt	school	state	country
 Masculino	Solteiro(a)	Centro	Areial - PB	Espanhol	EEEFM Francisco Apolinário da Silva
 Masculino	Solteiro(a)	Bela Vista	Campina Grande	Inglês 	EEEFM Severino Cabral
-Masculino	Solteiro(a)	Ramadinha I	Campina Grande	Espanhol	EEEFM Professor Itan Pereira
+Masculino	Solteiro(a)	Ramadinha	Campina Grande	Espanhol	EEEFM Professor Itan Pereira
 Masculino	Solteiro(a)	Centro- JS	Junco do Seridó	Inglês 	EEEFM Ezequiel Fernandes
 Masculino	Solteiro(a)	Centro- JS	Junco do Seridó	Inglês 	EEEFM Ezequiel Fernandes
-Feminino	Solteiro(a)	Jardim Quarenta	Campina Grande	Inglês 	Colégio Santa Teresinha
+Feminino	Solteiro(a)	Quarenta	Campina Grande	Inglês 	Colégio Santa Teresinha
 Masculino	Solteiro(a)	Cruzeiro	Campina Grande	Espanhol	IFPB
 Feminino	Solteiro(a)	Malvinas	Campina Grande	Inglês 	EEEFM Professor Anésio Leão
 Masculino	Solteiro(a)	Centro- Caturité	Caturité	Inglês 	EEEFM Félix Araújo
-Masculino	Solteiro(a)	Bairro Universitario	Campina Grande	Espanhol	EEEFM Ademar Veloso da Silveira
+Masculino	Solteiro(a)	Universitário	Campina Grande	Espanhol	EEEFM Ademar Veloso da Silveira
 Feminino	Solteiro(a)	centro - Boa vista	Boa vista	Espanhol	EEEFM Teodósio de Oliveira Lêdo
 Feminino	Solteiro(a)	Malvinas	Campina Grande	Espanhol	EEEFM Severino Cabral
 Feminino	Solteiro(a)	Sitio Cachoeira dos Barbosas 	Ingá	Espanhol	EEEFM Luiz Gonzaga Buriti
-Feminino	Solteiro(a)	Centenario	Campina grande	Espanhol	EEEFM Lúcia wanderlay de freitas
+Feminino	Solteiro(a)	Centenário	Campina grande	Espanhol	EEEFM Lúcia wanderlay de freitas
 Feminino	Solteiro(a)	Morro do Oscar	Juarez Tavora	Espanhol	EMEF luis Ribeiro Coutinho
 Masculino	Solteiro(a)	Centro- Lagoa seca	Lagoa Seca	Inglês 	EEEF Francisca Martiniano da Rocha
 Feminino	Solteiro(a)	Três Irmãs	Campina Grande	Inglês 	EEEFM Major Veneziano Vital do Rêgo
-Feminino	Solteiro(a)	Novo Bodocongó	Campina Grande	Inglês 	Estadual da Prata
+Feminino	Solteiro(a)	Bodocongó	Campina Grande	Inglês 	Estadual da Prata
 Feminino	Solteiro(a)	Pedregal	Campina Grande	Inglês 	Estadual da Prata
 Feminino	Solteiro(a)	Pedregal	Campina Grande	Inglês 	EEEFM Monte Carmelo
 Masculino	Solteiro(a)	Bodocongó	Campina Grande	Inglês 	EEEFM Monte Carmelo
@@ -28,13 +28,13 @@ Masculino	Solteiro(a)	Malvinas	Campina Grande	Espanhol	EEEFM CAIC José Joffily
 Feminino	Solteiro(a)	Bodocongó	Campina Grande	Inglês 	EEEFM Severino Cabral
 Masculino	Solteiro(a)	Jeremias	Campina Grande	Espanhol	EEEFM Professor Anésio Leão
 Feminino	Solteiro(a)	Centro - Esperança	Esperança	Inglês 	ECIEEFM Monsenhor José da Silva Coutinho
-Feminino	Solteiro(a)	Ramadinha II	Campina Grande	Espanhol	EEEFM Assis Chateaubriand
+Feminino	Solteiro(a)	Ramadinha	Campina Grande	Espanhol	EEEFM Assis Chateaubriand
 Feminino	Solteiro(a)	São José da Mata	Campina Grande	Inglês 	EEEFM Conselheiro José Braz do Rêgo
 Masculino	Solteiro(a)	Bodocongó	Campina Grande	Inglês 	IFPB
 Feminino	Solteiro(a)	Malvinas	Campina Grande	Inglês 	EEEFM Escritor Virginius da Gama e Melo
 Masculino	Solteiro(a)	Galante	Campina Grande	Espanhol	EEEFM Isabel Rofrigues de Melo
 Feminino	Solteiro(a)	Centro - Eperança	Campina Grande	Espanhol	ECIEEFM Monsenhor José da Silva Coutinho
-Feminino	Solteiro(a)	Centenario	Campina Grande	Espanhol	IFPB
+Feminino	Solteiro(a)	Centenário	Campina Grande	Espanhol	IFPB
 Feminino	Solteiro(a)	Dinamérica	Campina Grande	Espanhol	EEEFM Antônio Galdino Filho
 Masculino	Solteiro(a)	Santa Cruz	Campina Grande	Inglês 	IFPB
 Feminino	Solteiro(a)	Pedregal	Campina Grande	Espanhol	IFPB
@@ -51,7 +51,7 @@ Feminino	Solteiro(a)	Bodocongó	Campina Grande	Inglês 	Escola Santo Onofre
 Masculino	Solteiro(a)	Zona Rural	Gado Bravo	Espanhol	EEEM João da Silva Monteiro
 Masculino	Solteiro(a)	Bela Vista - Esperança	Esperança	Espanhol	EEEFM Irineu Joffily
 Feminino	Solteiro(a)	Bodocongó	Campina Grande	Espanhol	EEEFM Ademar Veloso da Silveira
-Feminino	Solteiro(a)	Bodocongó II	Campina Grande	Espanhol	Escola Santo Onofre
+Feminino	Solteiro(a)	Bodocongó	Campina Grande	Espanhol	Escola Santo Onofre
 Masculino	Solteiro(a)	Malvinas	Campina Grande	Espanhol	EEEFM Ademar Veloso da Silveira
 Feminino	Solteiro(a)	Jardim Cruzeiro III - Soledade	Soledado	Espanhol	EEEFM Antônio Galdino Filho
 Feminino	Solteiro(a)	Três Irmãs	Campina Grande	Espanhol	EEEFM Senador Argemiro de Figueiredo
@@ -59,7 +59,7 @@ Masculino	Solteiro(a)	Conceição	Campina Grande	Inglês 	EEEFM Solon de Lucena
 Feminino	Solteiro(a)	Prata	Campina Grande	Inglês 	IFPB
 Feminino	Solteiro(a)	Malvinas	Campina Grande	Inglês 	EEEFM Severino Cabral
 Feminino	Solteiro(a)	Catolé	Campina Grande	Inglês 	EEEFM Senador Argemiro de Figueiredo
-Feminino	Solteiro(a)	Ramadinha 	Campina Grande	Inglês 	EEEFM Escritor Virginius da Gama e Melo
+Feminino	Solteiro(a)	Ramadinha	Campina Grande	Inglês 	EEEFM Escritor Virginius da Gama e Melo
 Masculino	Solteiro(a)	Centro - Areial	Areial - PB	Inglês 	EEEFM Francisco Apolinário da Silva
 Feminino	Solteiro(a)	Centro - Lagoa de Roça	Lagoa de Roça	Inglês 	EEEFM Monsenhor José Borges de Carvalho
 Feminino	Solteiro(a)	São José da Mata	Campina Grande	Espanhol	Espaço Educacional Carmela Veloso
@@ -71,21 +71,21 @@ Feminino	Solteiro(a)	Centro - Mogeiro	Mogeiro	Espanhol	EEEM Otávia Silveira
 Feminino	Solteiro(a)	Monte Santo	Campina Grande	Inglês 	Escola Normal
 Feminino	Solteiro(a)	Acácio Figueiredo	Campina Grande	Espanhol	EEEFM Almirante Antônio Heráclito do Rêgo
 Masculino	Solteiro(a)	Bodocongó	Campina Grande	Inglês 	EEEFM Severino Cabral
-Masculino	Solteiro(a)	Novo Cruzeiro	Campina Grande	Inglês 	EEEFM Ademar Veloso da Silveira
-Masculino	Solteiro(a)	Novo Cruzeiro	Campina Grande	Inglês 	EEEFM Raul Córdula
+Masculino	Solteiro(a)	Cruzeiro	Campina Grande	Inglês 	EEEFM Ademar Veloso da Silveira
+Masculino	Solteiro(a)	Cruzeiro	Campina Grande	Inglês 	EEEFM Raul Córdula
 Feminino	Solteiro(a)	Zona Rural	Gado Bravo	Espanhol	EEEM João da Silva Monteiro
 Feminino	Solteiro(a)	Bela Vista - Juazeirinho	Juazeirinho	Inglês 	ECIEEFM Marechal Almeida Barreto
 Feminino	Solteiro(a)	Centro- Cubatí	Cubatí	Inglês 	ENCCEJA
 Masculino	Solteiro(a)	João Paulo II	Campina Grande	Inglês 	EEEF John Kennedy
 Masculino	Solteiro(a)	José Pinheiro	Campina Grande	Espanhol	EEEFM Nenzinha Cunha Lima
 Masculino	Solteiro(a)	Malvinas	Campina Grande	Espanhol	Estadual da Prata
-Masculino	Solteiro(a)	Bodocongó III	Campina Grande	Espanhol	Colégio Alfredo Dantas
+Masculino	Solteiro(a)	Bodocongó	Campina Grande	Espanhol	Colégio Alfredo Dantas
 Feminino	Solteiro(a)	Centro - Santa Cecília	Santa Cecília	Espanhol	Escola de Referência em Ensino Médio Justa Barbosa de Sales
 Feminino	Solteiro(a)	José Pinheiro	Campina Grande	Espanhol	Escola Normal
 Feminino	Solteiro(a)	Francisco Cabral - JS	Campina Grande	Espanhol	EEEFM Ezequiel Fernandes
 Feminino	Solteiro(a)	Malvinas	Campina Grande	Espanhol	EEEFM CAIC José Joffily
 Masculino	Solteiro(a)	Dinamérica	Campina Grande	Espanhol	ECIEEM Dr Hortensio de Sousa Ribeiro
-Feminino	Solteiro(a)	Novo Cruzeiro	Campina Grande	Inglês 	EEEFM Raul Córdula
+Feminino	Solteiro(a)	Cruzeiro	Campina Grande	Inglês 	EEEFM Raul Córdula
 Feminino	Solteiro(a)	Centro - Alagoa Nova	Alagoa Nova	Inglês 	EEEFM Monsenhor José Borges de Carvalho
 Masculino	Solteiro(a)	São José da Mata	Campina Grande	Inglês 	EEEFM José Miguel Leão
 Feminino	Solteiro(a)	Catolé	Campina Grande	Inglês 	Estadual da Prata
