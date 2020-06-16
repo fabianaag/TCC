@@ -1,10 +1,14 @@
+# Repositório para manipulação e limpeza dos dados utilizados
+
+
 Sugestão de como rodar.
 
-Criar uma venv com python 3.6
+Criar uma venv com python 3
+```
+virtualenv venv
+source venv/bin/activate
+```
 
-'virtualenv venv'
-'source venv/bin/activate'
+Dentro da venv `$ pip install -r requirements.txt`
 
-Dentro da venv pip install -r requirements.txt
-
-Daí jupyter-lab (vai abrir o jupyter no navegador) onde é possível modificar os arquivos
+Para executar `$ jupyter lab`

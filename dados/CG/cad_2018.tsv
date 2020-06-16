@@ -1,0 +1,79 @@
+sex	marital_status	birthday	language	option	city	neighborhood	school
+Feminino	Solteiro(a)	05/09/1994	Espanhol	Enfermagem	Campina Grande	Palmeira	Estadual da Palmeira
+Feminino	Solteiro(a)	29/01/1998	Espanhol	Enfermagem	Campina Grande	Catingueira	Estadual da Prata
+Masculino	Solteiro(a)	14/05/1996	Espanhol	Não definido	Campina Grande	Bodocongó	Estadual de Bodocongó
+Masculino	Solteiro(a)	16/09/1991	Espanhol	Direito	Campina Grande	Malvinas	Virgínio da Gama e Melo
+Masculino	Solteiro(a)	02/09/1991	Inglês	Educação Física	Campina Grande	Monte Santo	Estadual da Prata
+Feminino	Solteiro(a)	06/07/1999	Espanhol	Direito	Campina Grande	Bodocongó	Estadual de Bodocongó
+Masculino	Solteiro(a)	27/08/1995	Espanhol	Direito	Campina Grande	Bodocongó	Estadual de Bodocongó
+Feminino	Casado(a)	13/03/1966	Espanhol	Medicina	Campina Grande	José Pinheiro	Estadual Nenzinha Cunha Lima
+Masculino	Solteiro(a)	20/12/2001	Inglês	Área de Humanas	Campina Grande	Chico Mendes	Estadual da Prata
+Feminino	Solteiro(a)	22/06/2000	Espanhol	Medicina	Campina Grande	Ramadinha	Estadual Severino Cabral
+Masculino	Solteiro(a)	28/11/1999	Inglês	Agronomia	Campina Grande	Bela Vista	Monte Carmelo
+Masculino	Solteiro(a)	14/11/1990	Inglês	Não definido	Campina Grande	Bodocongó	Estadual de Bodocongó
+Feminino	Solteiro(a)	25/10/1996	Inglês	Administração	Campina Grande	Prata	Estadual da Prata
+Feminino	Solteiro(a)	17/11/1995	Espanhol	Administração	Campina Grande	Malvinas	Virgínio da Gama e Melo
+Feminino	Solteiro(a)	13/02/1996	Inglês	Psicologia	Campina Grande	Cruzeiro	Estadual Raul Córdula
+Feminino	Solteiro(a)	16/10/1998	Inglês	Educação Física	Campina Grande	São José da Mata	Estadual José Miguel Leão
+Feminino	Solteiro(a)	31/05/1963	Espanhol	Não definido	Campina Grande	Liberdade	Estadual Felix Araújo
+Feminino	Solteiro(a)	27/02/1996	Espanhol	Fisioterapia	Campina Grande	São José 	Estadual da Prata
+Masculino	Solteiro(a)	26/11/1997	Inglês	Direito	Campina Grande	Catolé	Escola Normal
+Feminino	Casado(a)	02/06/1961	Espanhol	Área de Exatas	Campina Grande	Liberdade	Estadual Felix Araújo
+Feminino	Solteiro(a)	09/12/1979	Espanhol	Área de Saúde	Campina Grande	Ramadinha	Estadual Severino Cabral
+Masculino	Solteiro(a)	24/04/1986	Inglês	Arquitetura	Campina Grande	Jardim Paulistano	Estadual da Prata
+Feminino	Solteiro(a)	06/09/1995	Espanhol	Área de Saúde	Campina Grande	Catolé	Escola Normal
+Masculino	Solteiro(a)	14/04/1976	Espanhol	Área de Exatas	Campina Grande	Castelo Branco	Estadual da Prata
+Feminino	Solteiro(a)	13/03/1992	Espanhol	Enfermagem	Campina Grande	Malvinas	Virgínio da Gama e Melo
+Feminino	Solteiro(a)	30/10/2000	Espanhol	Área de Saúde	Campina Grande	Castelo Branco	Estadual da Prata
+Feminino	Solteiro(a)	30/04/1992	Inglês	Psicologia	Campina Grande	Novo Horizonte	Estadual da Prata
+Feminino	Solteiro(a)	10/12/1983	Espanhol	Área de Saúde	Campina Grande	Rosa Cruz	Estadual Raul Córdula
+Feminino	Solteiro(a)	21/07/1997	Espanhol	Direito	Campina Grande	Vila Cabral	Escola Normal
+Masculino	Solteiro(a)	23/09/1993	Espanhol	Geografia	Campina Grande	São José da Mata	Estadual José Miguel Leão
+Feminino	Solteiro(a)	25/02/2000	Espanhol	Medicina	Campina Grande	Ressurreição	Estadual da Prata
+Feminino	Solteiro(a)	21/01/1997	Espanhol	Pedagogia	Campina Grande	Liberdade	Estadual Felix Araújo
+Feminino	Solteiro(a)	04/08/1985	Inglês	Área de Saúde	Campina Grande	Bodocongó	Estadual de Bodocongó
+Feminino	Solteiro(a)	02/11/1976	Inglês	Química	Campina Grande	Bodocongó	Estadual de Bodocongó
+Masculino	Casado(a)	20/09/1982	Inglês	Matemática	Campina Grande	São José da Mata	Estadual José Miguel Leão
+Feminino	Solteiro(a)	20/05/1975	Espanhol	Área de Humanas	Campina Grande	Cruzeiro	Estadual Raul Córdula
+Feminino	Solteiro(a)	30/07/2001	Inglês	Psicologia	Campina Grande	Palmeira	Estadual Anésio Leão
+Feminino	Solteiro(a)	31/10/2001	Inglês	Psicologia	Campina Grande	Palmeira	Estadual Anésio Leão
+Feminino	Casado(a)	18/09/1991	Inglês	Pedagogia	Campina Grande	São José da Mata	Estadual José Miguel Leão
+Feminino	Solteiro(a)	04/04/2001	Inglês	Psicologia	Campina Grande	Cinza	Estadual da Prata
+Feminino	Solteiro(a)	09/02/2000	Espanhol	História	Campina Grande	São José da Mata	Estadual José Miguel Leão
+Feminino	Solteiro(a)	30/04/2000	Inglês	Área de Saúde	Campina Grande	Prata	Estadual da Prata
+Masculino	Solteiro(a)	25/10/1987	Inglês	Área de Saúde	Campina Grande	Bodocongó	Estadual da Prata
+Masculino	Casado(a)	31/01/1989	Espanhol	Área de Saúde	Campina Grande	Dinamérica	Estadual Raul Córdula
+Masculino	Solteiro(a)	26/01/2002	Inglês	Área de Exatas	Campina Grande	Dinamérica	Estadual Raul Córdula
+Feminino	Solteiro(a)	04/10/1998	Espanhol	Área de Humanas	Campina Grande	Jardim Paulistano	Estadual da Prata
+Feminino	Casado(a)	18/03/1987	Inglês	Área de Humanas	Campina Grande	Palmeira	Estadual Anésio Leão
+Feminino	Casado(a)	05/10/1992	Espanhol	Área de Saúde	Campina Grande	LIgeiro 	Estadual Francisco Ernesto do Rêgo
+Feminino	Solteiro(a)	21/01/1993	Espanhol	Área de Saúde	Campina Grande	Monte Santo	Estadual da Prata
+Masculino	Solteiro(a)	22/08/1996	Inglês	Área de Saúde	Campina Grande	Monte Santo	Estadual da Prata
+Feminino	Solteiro(a)	19/12/1995	Inglês	Área de Saúde	Campina Grande	Bodocongó	Estadual da Prata
+Feminino	Solteiro(a)	15/04/1996	Inglês	Área de Saúde	Campina Grande	Bodocongó	Estadual de Bodocongó
+Feminino	Solteiro(a)	14/04/1996	Inglês	Área de Humanas	Campina Grande	Santa Rosa	Estadual Premen
+Masculino	Solteiro(a)	27/09/1996	Inglês	Área de Saúde	Campina Grande	Monte Santo	Estadual da Prata
+Masculino	Solteiro(a)	09/11/1997	Inglês	Área de Humanas	Campina Grande	Monte Santo	Estadual da Prata
+Masculino	Solteiro(a)	27/07/1998	Inglês	Área de Saúde	Campina Grande	presidente medici	Estadual Premen
+Feminino	Solteiro(a)	26/04/1999	Inglês	Área de Saúde	Campina Grande	tambor	Estadual Francisco Ernesto do Rêgo
+Masculino	Solteiro(a)	01/07/1996	Inglês	Área de Saúde	Campina Grande	Santa Cruz	Estadual Raul Córdula
+Feminino	Solteiro(a)	06/12/1965	Espanhol	Área de Humanas	Campina Grande	Liberdade	Estadual Felix Araújo
+Feminino	Casado(a)	03/05/1965	Inglês	Área de Exatas	Campina Grande	Palmeira	Estadual Anésio Leão
+Masculino	Solteiro(a)	29/11/1999	Inglês	Área de Exatas	Campina Grande	Palmeira	Estadual Anésio Leão
+Feminino	Casado(a)	19/06/1986	Espanhol	Área de Saúde	Campina Grande	Bodocongó	Estadual de Bodocongó
+Masculino	Solteiro(a)	09/11/1993	Espanhol	Área de Exatas	Campina Grande	Jardim Paulistano	Estadual da Prata
+Feminino	Divorciado(a)	18/06/1979	Espanhol	Área de Saúde	Campina Grande	Palmeira	Estadual Anésio Leão
+Masculino	Solteiro(a)	05/09/1996	Espanhol	Área de Humanas	Campina Grande	José Pinheiro	Estadual Nenzinha Cunha Lima
+Masculino	Solteiro(a)	18/05/1999	Espanhol	Área de Saúde	Campina Grande	Jardim Tavares	Estadual da Prata
+Feminino	Solteiro(a)	10/03/2000	Espanhol	Não definido	Campina Grande	Centro	Estadual Solon de Lucena
+Masculino	Solteiro(a)	23/12/2000	Inglês	Área de Exatas	Campina Grande	Centenário	Estadual da Prata
+Masculino	Solteiro(a)	04/04/1996	Inglês	Área de Exatas	Campina Grande	Bodocongó	Estadual de Bodocongó
+Feminino	Solteiro(a)	01/09/1995	Espanhol	Área de Humanas	Campina Grande	Cruzeiro	Estadual Raul Córdula
+Feminino	Solteiro(a)	30/01/1998	Espanhol	Área de Humanas	Campina Grande	Santa Cruz	Estadual da Prata
+Feminino	Solteiro(a)	05/08/2001	Inglês	Área de Exatas	Campina Grande	Bodocongó	Estadual de Bodocongó
+Masculino	Solteiro(a)	10/06/2000	Inglês	Não definido	Campina Grande	Monte Castelo	Estadual Premen
+Feminino	Solteiro(a)	28/03/1999	Espanhol	Área de Humanas	Campina Grande	Liberdade	Estadual Felix Araújo
+Feminino	Solteiro(a)	16/11/1994	Inglês	Área de Humanas	Campina Grande	Quarenta	Estadual Premen
+Feminino	Solteiro(a)	18/09/1997	Inglês	Área de Saúde	Campina Grande	Mutirão	Estadual da Prata
+Masculino	Solteiro(a)	15/07/1999	Inglês	Não definido	Campina Grande	Cruzeiro	Estadual Raul Córdula
+Feminino	Casado(a)	25/04/1985	Inglês	Área de Humanas	Campina Grande	Malvinas	Estadual da Prata
